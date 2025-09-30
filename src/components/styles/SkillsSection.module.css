@@ -16,7 +16,7 @@
 }
 
 .skillsSection hr {
-  border: 1px solid rgb(27, 198, 67);
+  border: 1px solid  #7209b7;
   margin: 10px auto 30px;
   width: 80%;
 }
@@ -35,7 +35,7 @@
   padding: 20px;
   width: 250px;
   color: #ffffff;
-  border: 1px solid rgb(27, 198, 67); 
+  border: 1px solid  #7209b7; 
   margin-bottom: 20px; /* Add bottom margin for spacing */
 }
 
@@ -67,12 +67,17 @@
 .icon {
   font-size: 2em;
   margin-bottom: 5px;
-  color: rgb(27, 198, 67); /* ✅ Green icons in dark mode */
+  /* color: rgb(27, 198, 67); ✅ Green icons in dark mode */
+  /* color: linear-gradient(90deg, , #7209b7); */
+  color: #f72585;
+
 }
 
 .skillItem span {
   font-size: 0.9em;
-  color: rgb(27, 198, 67); /* ✅ Green text in dark mode */
+  /* color: rgb(27, 198, 67); ✅ Green text in dark mode */
+  /* color: linear-gradient(90deg, #f72585, #7209b7); */
+   color: #f72585;
 }
 
 
@@ -112,7 +117,7 @@
 }
 
 :global(body.light-mode) .skillsCategory {
-  background-color: #000000;
+  background: linear-gradient(45deg, #7209b7, #dd2476);
   color: #ffffff;
   border: 2px solid #ffffff;
 }

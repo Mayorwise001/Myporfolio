@@ -3,8 +3,8 @@ import React from 'react';
 import styles from './styles/SkillsSection.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { faHtml5, faCss3Alt, faSass, faJsSquare, faReact, faNode, faGitAlt, faGithub, faFigma, faLinux, faWordpress} from '@fortawesome/free-brands-svg-icons';
-import { faCube, faDatabase, faVial, faPaintBrush, faMagic, faFire, faCode } from '@fortawesome/free-solid-svg-icons';
+import { faHtml5, faCss3Alt, faSass, faJsSquare, faReact, faNode, faGitAlt, faGithub, faLinux, faWordpress} from '@fortawesome/free-brands-svg-icons';
+import { faCube, faDatabase, faVial, faPaintBrush, faMagic,faCode } from '@fortawesome/free-solid-svg-icons';
 
 
 const SkillsSection = () => {
@@ -23,9 +23,9 @@ const SkillsSection = () => {
             <SkillItem icon={faSass} label="SASS" />
             <SkillItem icon={faJsSquare} label="JavaScript" />
             <SkillItem icon={faReact} label="React" />
-            {/* <SkillItem icon={faReact} label="Redux" />
+            <SkillItem icon={faReact} label="Redux" />
             <SkillItem icon={faReact} label="NextJS" />
-            <SkillItem icon={faJsSquare} label="TypeScript" /> */}
+            <SkillItem icon={faJsSquare} label="TypeScript" />
             <SkillItem icon={faPaintBrush} label="Styled Components" />
             <SkillItem icon={faMagic} label="Framer Motion" />
             <SkillItem icon={faWordpress} label="WordPress" />
@@ -66,9 +66,6 @@ const SkillsSection = () => {
         </div>
       </div>
 
-      <div className={styles.languages}>
-        <span className={styles.hello}><a href="#contact">Say Hello</a></span>
-      </div>
     </section>
   );
 };
