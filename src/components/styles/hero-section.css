@@ -290,6 +290,10 @@ body.light-mode .gsk-hero-image {
   .gsk-hero-image-overlay {
     border-radius: 24px 24px 24px 48px;
   }
+
+  .gsk-hero-badge{
+    margin-top: 30px;
+  }
 }
 
 
