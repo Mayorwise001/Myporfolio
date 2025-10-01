@@ -82,6 +82,28 @@
 
 
 
+  .languages {
+    background-color: #f72585;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+    margin-top: 30px;
+    color: #ffffff;
+    width:fit-content;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+  }
+
+  .languages:hover{
+    background: linear-gradient(45deg, #ff512f, #dd2476); /* Dynamic gradient */
+    cursor: pointer;
+  }
+.hello a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .btn::before {
   content: "";
   position: absolute;

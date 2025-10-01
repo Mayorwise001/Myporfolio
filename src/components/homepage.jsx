@@ -6,6 +6,7 @@ import FeaturesSection from "./FeaturesSection";
 import FeatureHighlight from "./FeatureHighlight";
 import Footer from "./footer";
 import SkillsSection from "./SkillsSection";
+import Featured from "./Featured";
 
 
 
@@ -17,6 +18,7 @@ function Home(){
     <Navbar/>
     <HeroSection/>
     <SkillsSection/>
+    <Featured/>
     <LogoSlider/>
     <FeaturesSection/>
     <FeatureHighlight/>

@@ -66,6 +66,9 @@ const SkillsSection = () => {
         </div>
       </div>
 
+      <div className={styles.languages}>
+        <span className={styles.hello}><a href="#contact">Say Hello</a></span>
+      </div>
     </section>
   );
 };
