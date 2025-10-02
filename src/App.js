@@ -1,9 +1,10 @@
 import React from "react";
 
 import { Routes, Route} from "react-router-dom";
-import LoginForm from "./components/login";
+
 import Home from "./components/homepage";
-import SignupForm from "./components/signup";
+import { Contact } from "lucide-react";
+
 
 
 function App(){
@@ -12,11 +13,12 @@ function App(){
 
     <>
       <Routes>
-        <Route path="/login" element={<LoginForm/>} />
-         {/* ✅ Protected Route */}
+
 
         <Route path="/" element={<Home/>} />
-        <Route path="/signup" element={<SignupForm/>} />
+        <Route path="/contact" element={<Contact/>} />
+
+
       </Routes>
     </>
   )

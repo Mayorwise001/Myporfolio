@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
-    <section className="gsk-hero">
+    <section className="gsk-hero" id="about">
       {/* Decorative SVG shape */}
       <svg
         className="gsk-hero-svg"
@@ -41,12 +41,12 @@ const HeroSection = () => {
    
 
 
-        <Link
-          to="/projects"
+        <a
+          href="#featured-projects"
           className="gsk-hero-cta info-btn"
           aria-label="Go to projects page"
         >
-          View My Work
+          View My Projects
           <svg
             width="22"
             height="22"
@@ -63,7 +63,7 @@ const HeroSection = () => {
               strokeLinejoin="round"
             />
           </svg>
-        </Link>
+</a>
       </div>
 
       <svg

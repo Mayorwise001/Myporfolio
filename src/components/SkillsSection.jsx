@@ -9,7 +9,7 @@ import { faCube, faDatabase, faVial, faPaintBrush, faMagic,faCode } from '@forta
 
 const SkillsSection = () => {
   return (
-    <section className={styles.skillsSection}>
+    <section id="skills" className={styles.skillsSection}>
       <h2>Tools & Skills</h2>
       <hr />
 

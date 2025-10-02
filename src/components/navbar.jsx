@@ -31,10 +31,10 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <nav className={`navbar-menu ${isMenuOpen ? "active" : ""}`}>
           <ul>
-            <li><a href="/">About Me</a></li>
-            <li><a href="/">Projects Done</a></li>
-            <li><a href="/">My Tools</a></li>
-            <li><a href="/">Contact me</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#featured-projects">Projects Done</a></li>
+            <li><a href="#skills">My Tools</a></li>
+            <li><a href="#contact">Contact me</a></li>
           </ul>
         </nav>
 

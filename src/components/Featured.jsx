@@ -3,9 +3,9 @@ import './styles/featured.css'
 
 const Featured =()=>{
 
-    return(
+return(
 <section class="featured-projects" id="featured-projects">
-  <h2>Featured Projects</h2>
+  <h2>My Projects</h2>
 
   <div class="project">
     <div class="project-details">
@@ -28,6 +28,7 @@ This tool demonstrates expertise in backend development, database integration, a
     className="project-video"
     src="invt.mkv"   // Replace with your actual video path
     muted
+    autoPlay
     playsInline
     preload="none"
     ref={(el) => {
@@ -82,6 +83,7 @@ Category Customization: Define and organize jobs into custom categories for bett
     className="project-video"
     src="jobadmin.mp4"   // Replace with your actual video path
     muted
+    autoPlay
     playsInline
     preload="none"
     ref={(el) => {
@@ -123,6 +125,7 @@ The platform’s responsive design ensures compatibility across all devices, pro
     className="project-video"
     src="jobsdisplay.mp4"   // Replace with your actual video path
     muted
+    autoPlay
     playsInline
     preload="none"
     ref={(el) => {
@@ -169,6 +172,7 @@ The platform features a clean interface where users can browse products, explore
     className="project-video"
     src="cart.mp4"   // Replace with your actual video path
     muted
+    autoPlay
     playsInline
     preload="none"
     ref={(el) => {
@@ -205,7 +209,7 @@ With a focus on individual profile management, the app showcases seamless integr
 
       <div class="buttons">
       <a href="https://messenger-users.vercel.app/" class="btn live-preview">Live Preview</a>
-      <a href="https://github.com/Mayorwise001/messenger_users.git" class="btn client">Preview Code</a>
+      
       </div>
     </div>
     <div class="project-image">
@@ -231,6 +235,7 @@ The Sceptre Chemicals website is a professionally designed platform built with W
     className="project-video"
     src="sceptre.mp4"   // Replace with your actual video path
     muted
+    autoPlay
     playsInline
     preload="none"
     ref={(el) => {
@@ -269,8 +274,9 @@ The Sceptre Chemicals website is a professionally designed platform built with W
 <div className="project-image2">
   <video
     className="project-video"
-    src="sceptre.mp4"   // Replace with your actual video path
+    src="hola.mkv"   // Replace with your actual video path
     muted
+    autoPlay
     playsInline
     preload="none"
     ref={(el) => {
